@@ -131,5 +131,15 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lab.GBD.Entities.Data\Lab.GBD.Entities.Data.csproj">
+      <Project>{45b6b4c3-8c72-4639-8eec-30dd96b06ba2}</Project>
+      <Name>Lab.GBD.Entities.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lab.GBD.Entities\Lab.GBD.Entities.csproj">
+      <Project>{a868eaaf-3690-4686-9660-80177cc0dc94}</Project>
+      <Name>Lab.GBD.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -123,6 +123,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GBDDbContext.cs" />
+    <Compile Include="Migrations\20180324153202_Initial.cs" />
+    <Compile Include="Migrations\20180324153202_Initial.designer.cs">
+      <DependentUpon>20180324153202_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\GBDDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
