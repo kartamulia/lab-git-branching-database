@@ -15,7 +15,7 @@ namespace Lab.GBD.ConsoleApp
 
             try
             {
-
+                AddUnitOfMeasurement(dbContext);
                 AddInventoryItem(dbContext);
                 ReadInventoryItems(dbContext);
             }
@@ -31,6 +31,18 @@ namespace Lab.GBD.ConsoleApp
             Console.ReadLine();
         }
 
+        private static void AddUnitOfMeasurement(GBDDbContext dbContext)
+        {
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         private static void AddInventoryItem(GBDDbContext dbContext)
         {
             try
@@ -38,7 +50,6 @@ namespace Lab.GBD.ConsoleApp
                 var result = dbContext.InventoryItems.Add(new Entities.InventoryItem()
                 {
                     Name = "Inventory Item 1",
-                    UnitOfMeasure = Entities.UnitOfMeasure.Box,
                     UnitPrice = 100
                 });
 
@@ -59,7 +70,7 @@ namespace Lab.GBD.ConsoleApp
                 var inventoryItems = dbContext.InventoryItems.ToList();
 
                 Console.WriteLine();
-                inventoryItems?.ForEach(x => Console.WriteLine($"Id: {x.Id}; Name: {x.Name}; UoM: {x.UnitOfMeasure}; Price: {x.UnitPrice}"));
+                inventoryItems?.ForEach(x => Console.WriteLine($"Id: {x.Id}; Name: {x.Name}; UoM: {x.UnitOfMeasurement}; Price: {x.UnitPrice}"));
             }
             catch (Exception)
             {

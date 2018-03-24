@@ -15,6 +15,8 @@ namespace Lab.GBD.Entities.Data
 
         public DbSet<InventoryItem> InventoryItems { get; set; }
 
+        public DbSet<UnitOfMeasurement> UnitOfMeasurements { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=GBDDb;Trusted_Connection=True;");

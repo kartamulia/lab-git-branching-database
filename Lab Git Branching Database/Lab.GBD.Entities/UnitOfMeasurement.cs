@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab.GBD.Entities
 {
-    public class InventoryItem
+    public class UnitOfMeasurement
     {
-        public InventoryItem()
+        public UnitOfMeasurement()
         {
         }
 
@@ -16,10 +16,6 @@ namespace Lab.GBD.Entities
 
         public string Name { get; set; }
 
-        public int UnitOfMeasurementId { get; set; }
-
-        public UnitOfMeasurement UnitOfMeasurement { get; set; }
-
-        public decimal UnitPrice { get; set; }
+        public ICollection<InventoryItem> InventoryItems { get; set; }
     }
 }
