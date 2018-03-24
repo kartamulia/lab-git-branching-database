@@ -16,7 +16,7 @@ namespace Lab.GBD.ConsoleApp
             try
             {
 
-                AddInventoryItem(dbContext);
+                //AddInventoryItem(dbContext);
                 ReadInventoryItems(dbContext);
             }
             catch (Exception ex)
