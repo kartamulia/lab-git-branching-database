@@ -1,2 +1,2 @@
 # lab-git-branching-database
-Lab to study branching database.
+Lab to learn branching database.
