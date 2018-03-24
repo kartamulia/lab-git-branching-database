@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.GBD.Entities", "Lab.GBD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.GBD.Entities.Data", "Lab.GBD.Entities.Data\Lab.GBD.Entities.Data.csproj", "{45B6B4C3-8C72-4639-8EEC-30DD96B06BA2}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Lab.GBD.SqlServerDbProject", "Lab.GBD.SqlServerDbProject\Lab.GBD.SqlServerDbProject.sqlproj", "{A5847833-0AA3-4D85-A95E-BC313BC9B6A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{45B6B4C3-8C72-4639-8EEC-30DD96B06BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45B6B4C3-8C72-4639-8EEC-30DD96B06BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45B6B4C3-8C72-4639-8EEC-30DD96B06BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5847833-0AA3-4D85-A95E-BC313BC9B6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5847833-0AA3-4D85-A95E-BC313BC9B6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5847833-0AA3-4D85-A95E-BC313BC9B6A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A5847833-0AA3-4D85-A95E-BC313BC9B6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5847833-0AA3-4D85-A95E-BC313BC9B6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5847833-0AA3-4D85-A95E-BC313BC9B6A5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
