@@ -10,6 +10,7 @@ namespace Lab.GBD.Entities
     {
         public UnitOfMeasurement()
         {
+            this.InventoryItems = new HashSet<InventoryItem>();
         }
 
         public int Id { get; set; }
