@@ -127,6 +127,10 @@
     <Compile Include="Migrations\20180324153202_Initial.designer.cs">
       <DependentUpon>20180324153202_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20180324155724_Unit_Of_Measurement.cs" />
+    <Compile Include="Migrations\20180324155724_Unit_Of_Measurement.designer.cs">
+      <DependentUpon>20180324155724_Unit_Of_Measurement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\GBDDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

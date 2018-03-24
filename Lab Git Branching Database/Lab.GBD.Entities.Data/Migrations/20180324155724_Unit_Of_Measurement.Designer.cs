@@ -11,9 +11,10 @@ using System;
 namespace Lab.GBD.Entities.Data.Migrations
 {
     [DbContext(typeof(GBDDbContext))]
-    partial class GBDDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180324155724_Unit_Of_Measurement")]
+    partial class Unit_Of_Measurement
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
